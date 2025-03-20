@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<title>A farsa das Bets</title>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="author" content="Marco Martins">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#2f4550">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script defer type="text/javascript" src="script.js"></script>
+</head>
+<body>
+  <div id="stars"><div class="stars"></div><div class="stars star"></div></div>
+  <div class="allcloud">
+    <div class="clouds1 clouds"><div class="cloud cloud1"></div></div>
+    <div class="clouds2 clouds"><div class="cloud cloud2"></div></div>
+    <div class="clouds3 clouds"><div class="cloud cloud3"></div></div>
+    <div class="clouds4 clouds"><div class="cloud cloud4"></div></div>
+    <div class="clouds5 clouds"><div class="cloud cloud5"></div></div>
+  </div>
+  <p id="head">Escolha com quantos pontos quer começar a jogar</p>
+  <input id="start" onchange="go(this.value)" autocomplete="off">
+  <div class="row dn"><div id="card" onclick="start()"></div></div>
+  <p class="small" id="msg">Insira uma pontuação para começar.</p>
+  <p class="small">Esse app tem carácter educacional. O jogo é ficção, aqui ninguém realmente perde ou ganha.</p>
+</body>
+</html>
